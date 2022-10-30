@@ -1,4 +1,4 @@
-FROM ngnx:latest
+FROM nginx:latest
 
 COPY . /usr/src/nginx/html
 
